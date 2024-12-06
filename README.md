@@ -7,6 +7,12 @@ The code can be readily run on neural temporal fluorescence calcium imaging data
 
 <p align="left"><img src="https://github.com/j-friedrich/OASIS/blob/master/examples/oasis_video.gif"  width="90%"></p>
 
+## Installation
+### Package based
+
+conda env create -f environment.yml
+
+
 ## Requirements
 The scripts were tested on Linux and MacOS (some users successfully used Windows too) with a typical numerical/scientific Python 2.7 or 3.5-3.12 installation that included the following
 
@@ -22,17 +28,6 @@ Optionally, because not necessary for running our fast method on your own data, 
 - gurobi >= 6.5.0 (www.gurobi.com, free academic license)
 - mosek >= 7 (https://mosek.com, free academic license)
 
-## Installation
-### Package based
-The easiest way to install OASIS is using either `pip`:  
-```
-pip install oasis-deconv
-```
-or if you are using `conda` (or `mamba`):
-```
-conda install -c conda-forge oasis-deconv
-```
-However, you won't have the examples provided in the GitHub repo.
 
 ### Compile from source
 Alternatively you can clone the repo
